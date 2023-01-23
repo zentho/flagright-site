@@ -4,7 +4,7 @@ import Checkmark from "../media/svg/Checkmark";
 
 export default function Sanctions() {
   return (
-    <section>
+    <section className="pb-8 bg-[#F8FAFE]">
       <div className="p-8 pt-20">
         <h1 className="text-3xl font-semibold mb-6">
           Sanctions, PEP and media checks on a centralized platform for all AML compliance needs
