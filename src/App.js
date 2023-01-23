@@ -1,3 +1,4 @@
+import TrustSection from "./components/TrustSection";
 import Protect from "./components/Protect";
 import Reliable from "./components/Reliable";
 import Sanctions from "./components/Sanctions";
@@ -12,6 +13,7 @@ function App() {
       <Protect />
       <Streamline />
       <What />
+      <TrustSection />
     </div>
   );
 }
