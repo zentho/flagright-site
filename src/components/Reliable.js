@@ -9,10 +9,10 @@ export default function Reliable() {
         and EU to deliver you relevant and up-to-date information.
       </p>
       <div className="grid grid-cols-2 items-center w-80 gap-y-10">
-        <img src={require("../media/OFAC.png")} alt="" />
-        <img src={require("../media/FCA.png")} alt="" />
-        <img src={require("../media/EU.png")} alt="" />
-        <img src={require("../media/UN.png")} alt="" />
+        <img src={require("../media/OFAC.png")} alt="OFAC logo" />
+        <img src={require("../media/FCA.png")} alt="FCA logo" />
+        <img src={require("../media/EU.png")} alt="EU logo" />
+        <img src={require("../media/UN.png")} alt="UN logo" />
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ export default function Sanctions() {
           </a>
         </div>
       </div>
-      <img src={require("../media/capone.png")} alt="capone" />
+      <img src={require("../media/capone.png")} alt="sanction showcase" />
     </section>
   );
 }

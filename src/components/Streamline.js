@@ -27,7 +27,7 @@ export default function Streamline() {
           </div>
         </div>
       </div>
-      <img src={require("../media/han.png")} alt="capone" />
+      <img src={require("../media/han.png")} alt="screening showcase" />
     </section>
   );
 }
