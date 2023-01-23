@@ -1,6 +1,7 @@
 import Protect from "./components/Protect";
 import Reliable from "./components/Reliable";
 import Sanctions from "./components/Sanctions";
+import Streamline from "./components/Streamline";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Sanctions />
       <Reliable />
       <Protect />
+      <Streamline />
     </div>
   );
 }
