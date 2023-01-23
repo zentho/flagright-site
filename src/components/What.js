@@ -9,11 +9,11 @@ import Rocket from "../media/svg/Rocket";
 export default function What() {
   return (
     <section className="p-8 pt-20 pb-14 bg-[#1A1935] text-white ">
-      <h2 className="mb-6 text-4xl font-medium">
+      <h2 className="mb-6 leading-tight text-3xl font-semibold">
         What makes Flagright
         <span className="text-[#8B75F2]"> different? </span>
       </h2>
-      <p className="mb-12 leading-8  text-lg font-light">
+      <p className="mb-12 leading-7 font-light">
         Flagright's developer friendly API takes developer teams 4 days to integrate. Flagright API is the
         ultimate AML compliance and fraud prevention layer that enables you to deliver services to your
         customers at scale using your preferred frameworks.
@@ -22,7 +22,7 @@ export default function What() {
         <div>
           <Rocket />
           <h3 className="mt-5 mb-1 text-2xl font-medium">Go live in 4 days</h3>
-          <p className="leading-8 text-lg font-light">
+          <p className="leading-7 font-light">
             Quickest integration in the world. 85% faster than industry benchmark. Our competitors take 2-4
             months.
           </p>
@@ -30,21 +30,21 @@ export default function What() {
         <div>
           <Cloud />
           <h3 className="mt-5 mb-1 text-2xl font-medium">One powerful API</h3>
-          <p className="leading-8 text-lg font-light">
+          <p className="leading-7 font-light">
             A unified, standardized API for all suspicious activity detection use cases.
           </p>
         </div>
         <div>
           <Lightning />
           <h3 className="mt-5 mb-1 text-2xl font-medium">Always real-time</h3>
-          <p className="leading-8 text-lg font-light">
+          <p className="leading-7 font-light">
             Flagright API is always fast at no additional cost even for complex use cases.
           </p>
         </div>
         <div>
           <Hand />
           <h3 className="mt-5 mb-1 text-2xl font-medium">Usage-based pricing</h3>
-          <p className="leading-8 text-lg font-light">
+          <p className="leading-7 text-lg font-light">
             Flexible payment plans that help you realize ROI faster.
           </p>
         </div>
