@@ -4,6 +4,7 @@ import Reliable from "./components/Reliable";
 import Sanctions from "./components/Sanctions";
 import Streamline from "./components/Streamline";
 import What from "./components/What";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Streamline />
       <What />
       <TrustSection />
+      <Footer />
     </div>
   );
 }

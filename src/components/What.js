@@ -63,7 +63,7 @@ export default function What() {
           <p className="text-4xl text-[#e0a143] font-semibold">185%</p>
         </div>
 
-        <ul className="flex justify-center gap-3">
+        <div className="flex justify-center gap-3">
           <span className="cursor-pointer">
             <Bar />
           </span>
@@ -73,7 +73,7 @@ export default function What() {
           <span className="cursor-pointer">
             <Ball />
           </span>
-        </ul>
+        </div>
       </div>
       <div className="text-center">
         <a type="button" href="/demo" className="py-4 w-full text-xl bg-blue-600 rounded-md">
