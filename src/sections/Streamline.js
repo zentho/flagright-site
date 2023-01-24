@@ -5,7 +5,7 @@ export default function Streamline() {
   return (
     <section className="grid items-end justify-center max-w-md grid-cols-1 mx-auto md:max-w-2xl lg:grid-cols-2 lg:max-w-full lg:px-24 lg:pt-6 xl:px-32">
       <div className="flex flex-col items-center p-8 pt-16 md:px-2 lg:mb-auto">
-        <h1 className="mb-4 text-3xl font-semibold leading-tight lg:text-2xl lg:max-w-sm md:max-w-xl md:text-center lg:text-left">
+        <h1 className="mb-4 text-3xl text-[#1A1935] font-bold leading-tight lg:max-w-sm md:max-w-xl md:text-center lg:text-left">
           Streamline screening & case management
         </h1>
         <div className="flex flex-col max-w-sm gap-6 md:gap-4">
