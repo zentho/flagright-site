@@ -8,13 +8,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <Sanctions />
-      <Reliable />
-      <Protect />
-      <Streamline />
-      <What />
-      <TrustSection />
+    <div>
+      <main>
+        <Sanctions />
+        <Reliable />
+        <Protect />
+        <Streamline />
+        <What />
+        <TrustSection />
+      </main>
       <Footer />
     </div>
   );
