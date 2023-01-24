@@ -37,7 +37,7 @@ export default function Combine() {
         </div>
       </div>
       <img
-        className="absolute bottom-0 right-0 w-[54vw]"
+        className="absolute bottom-0 right-0 "
         src={require("../../media/screening-diagram.png")}
         alt="screening diagram"
       />
