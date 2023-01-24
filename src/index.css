@@ -10,7 +10,7 @@ body {
 }
 
 #sanction-code::-webkit-scrollbar {
-  width: 32px;
+  width: 28px;
 }
 
 #sanction-code::-webkit-scrollbar-track {
@@ -22,7 +22,8 @@ body {
   background-color: #403D82;
   border-radius: 180px;
   border: #0a0925;
-  border-width: 12px;
+  border-width: 10px;
   border-style: solid;
 }
+
 
