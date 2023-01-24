@@ -10,17 +10,17 @@ export default function Sanctions() {
           Sanctions, PEP and media checks <br className="hidden xl:inline" /> on a centralized platform
           <span className="md:hidden"> for all AML compliance needs </span>
         </h1>
-        <div className="flex flex-col gap-6 lg:hidden">
+        <div className="flex flex-col max-w-sm gap-6 lg:hidden">
           <div className="flex items-start gap-3 ">
             <Checkmark />
-            <p className="inline-block max-w-sm leading-7 text-gray-800">
+            <p className="leading-7 text-gray-800 ">
               Bring all your data on a no-code, powerful platform to maximize the efficacy of AML compliance
               operations.
             </p>
           </div>
           <div className="flex items-start gap-3">
             <Checkmark />
-            <p className="inline-block max-w-sm leading-7 text-gray-800">
+            <p className="leading-7 text-gray-800 ">
               Combine screening with transaction monitoring, customer risk assessment and more.
             </p>
           </div>

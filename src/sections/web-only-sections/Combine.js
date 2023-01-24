@@ -9,11 +9,11 @@ export default function Combine() {
         <h1 className="max-w-3xl mb-8 text-2xl font-semibold leading-tight">
           Combine screening with transaction monitoring, <br /> customer risk assessment & more.
         </h1>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col max-w-sm gap-6">
           <div>
             <div className="flex items-start gap-3 mb-4">
               <Checkmark />
-              <p className="inline-block max-w-sm text-sm leading-6 text-gray-800">
+              <p className="text-sm leading-6 text-gray-800 ">
                 Real-time, risk-based transaction monitoring for AML compliance & fraud prevention.
               </p>
             </div>
@@ -25,7 +25,7 @@ export default function Combine() {
           <div>
             <div className="flex items-start gap-3 mb-4">
               <Checkmark />
-              <p className="inline-block max-w-sm text-sm leading-6 text-gray-800">
+              <p className="text-sm leading-6 text-gray-800 ">
                 Transform customer risk assessment for onboarding & transaction risk, get rid of spreadsheets.
               </p>
             </div>
