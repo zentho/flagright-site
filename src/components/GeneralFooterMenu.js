@@ -2,21 +2,21 @@ import React from "react";
 
 export default function GeneralFooterMenu() {
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-3 text-sm font-medium">
       <a href="/privacy">
-        <p className="font-medium">Privacy Policy</p>
+        <p>Privacy Policy</p>
       </a>
       <a href="/terms">
-        <p className="font-medium">Terms</p>
+        <p>Terms</p>
       </a>
       <a href="/jobs">
-        <p className="font-medium">Jobs</p>
+        <p>Jobs</p>
       </a>
       <a href="/cookie">
-        <p className="font-medium">Cookie Policy</p>
+        <p>Cookie Policy</p>
       </a>
       <a href="/imprint">
-        <p className="font-medium">Imprint</p>
+        <p>Imprint</p>
       </a>
     </div>
   );
