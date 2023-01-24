@@ -4,10 +4,10 @@ import Checkmark from "../media/svg/Checkmark";
 
 export default function Sanctions() {
   return (
-    <section className="pb-8 lg:bg-white bg-[#F8FAFE] grid grid-cols-1 lg:grid-cols-2 items-center md:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12">
-      <div className="max-w-xl p-8 pt-20 mx-auto lg:mr-0">
+    <section className="pb-8 lg:bg-white bg-[#F8FAFE] pt-20  grid grid-cols-1 lg:grid-cols-2 items-center md:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12">
+      <div className="max-w-xl p-8 mx-auto lg:p-0">
         <h1 className="mb-6 text-3xl font-semibold leading-tight lg:font-bold lg:text-2xl lg:mb-2">
-          Sanctions, PEP and media checks <br className="hidden md:invisible" /> on a centralized platform
+          Sanctions, PEP and media checks <br className="hidden xl:inline" /> on a centralized platform
           <span className="md:hidden"> for all AML compliance needs </span>
         </h1>
         <div className="flex flex-col gap-6 lg:hidden">
@@ -30,8 +30,8 @@ export default function Sanctions() {
           </a>
         </div>
         <p className="hidden text-xs leading-5 text-gray-800 lg:block">
-          Bring all your data on a no-code, powerful platform to maximize <br className="invisible" /> the
-          efficacy of AML compliance operations.
+          Bring all your data on a no-code, powerful platform to maximize <br /> the efficacy of AML
+          compliance operations.
         </p>
       </div>
 
