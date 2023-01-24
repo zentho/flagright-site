@@ -1,6 +1,6 @@
 import React from "react";
 import Checkmark from "../../media/svg/Checkmark";
-import Arrow from "../../media/svg/Arrow";
+import BlueArrow from "../../media/svg/BlueArrow";
 
 export default function Combine() {
   return (
@@ -19,7 +19,7 @@ export default function Combine() {
             </div>
             <a className="block mb-4 ml-8 text-lg font-semibold text-blue-600" href="/more">
               Learn more
-              <Arrow />
+              <BlueArrow />
             </a>
           </div>
           <div>
@@ -31,7 +31,7 @@ export default function Combine() {
             </div>
             <a className="block mb-4 ml-8 text-lg font-semibold text-blue-600" href="/more">
               Learn more
-              <Arrow />
+              <BlueArrow />
             </a>
           </div>
         </div>

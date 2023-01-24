@@ -1,16 +1,18 @@
-import TrustSection from "./components/TrustSection";
-import Protect from "./components/Protect";
-import Reliable from "./components/Reliable";
-import Sanctions from "./components/Sanctions";
-import Streamline from "./components/Streamline";
-import What from "./components/What";
-import Footer from "./components/Footer";
-import Combine from "./components/web-only-sections/Combine";
+import TrustSection from "./sections/TrustSection";
+import Protect from "./sections/Protect";
+import Reliable from "./sections/Reliable";
+import Sanctions from "./sections/Sanctions";
+import Streamline from "./sections/Streamline";
+import What from "./sections/What";
+import Footer from "./sections/Footer";
+import Combine from "./sections/web-only-sections/Combine";
+import Designed from "./sections/web-only-sections/Designed";
 
 function App() {
   return (
     <div>
       <main>
+        <Designed />
         <Combine />
         <Sanctions />
         <Reliable />

@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "../media/svg/Arrow";
+import BlueArrow from "../media/svg/BlueArrow";
 import Checkmark from "../media/svg/Checkmark";
 
 export default function Sanctions() {
@@ -25,7 +25,7 @@ export default function Sanctions() {
           </div>
           <a className="block mb-4 ml-8 text-lg font-semibold text-blue-600" href="/more">
             Learn more
-            <Arrow />
+            <BlueArrow />
           </a>
         </div>
       </div>
