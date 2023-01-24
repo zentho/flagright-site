@@ -12,8 +12,10 @@ function App() {
   return (
     <div>
       <main>
-        <Designed />
-        <Combine />
+        <div className="hidden">
+          <Designed />
+          <Combine />
+        </div>
         <Sanctions />
         <Reliable />
         <Protect />
