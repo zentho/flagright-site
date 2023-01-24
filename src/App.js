@@ -12,15 +12,19 @@ function App() {
   return (
     <div>
       <main>
-        <div className="hidden">
-          <Designed />
+        <Sanctions />
+        <div className="hidden lg:block">
           <Combine />
         </div>
-        <Sanctions />
         <Reliable />
         <Protect />
         <Streamline />
-        <What />
+        <div className="hidden lg:block">
+          <Designed />
+        </div>
+        <div className="lg:hidden">
+          <What />
+        </div>
         <TrustSection />
       </main>
       <Footer />

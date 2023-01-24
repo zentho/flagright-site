@@ -1,77 +1,33 @@
 import React from "react";
+import AdvisoryFooterMenu from "../components/AdvisoryFooterMenu";
+import FlagrightMark from "../components/FlagrightMark";
+import FollowPanel from "../components/FollowPanel";
+import GeneralFooterMenu from "../components/GeneralFooterMenu";
+import IntegrationsFooterMenu from "../components/IntegrationsFooterMenu";
+import PlatformFooterMenu from "../components/PlatformFooterMenu";
 
 export default function Footer() {
   return (
-    <footer className="pt-20 pb-20 px-8 bg-[#EBF2FF]">
-      <div className="flex mb-10 justify-between">
-        <div>
-          <a href="/">
-            <img src={require("../media/flagright.png")} alt="flagright logo" />
-          </a>
-          <p className="mt-4 text-xs">© 2023 Flagright</p>
-        </div>
-
-        <div>
-          <h3 className="font-medium">Follow Us</h3>
-          <div className="mt-3 flex gap-4">
-            <a href="https://www.linkedin.com/company/flagright/">
-              <img src={require("../media/linkedin.png")} alt="linkedin logo" />
-            </a>
-            <a href="https://twitter.com/FlagrightHQ">
-              <img src={require("../media/twitter.png")} alt="twitter logo" />
-            </a>
-            <a href="https://medium.com/@Flagright">
-              <img src={require("../media/medium.png")} alt="medium logo" />
-            </a>
-          </div>
-        </div>
+    <footer className="pt-20 pb-20 px-8 bg-[#EBF2FF] lg:px-24 ">
+      <div className="flex justify-between mb-10 sm:justify-start sm:gap-8 md:hidden">
+        <FlagrightMark />
+        <FollowPanel />
       </div>
 
-      <div className="grid grid-cols-1 gap-10">
-        <div className="flex flex-col gap-3">
-          <h3 className="font-medium">Platform</h3>
-          <a href="/time">
-            <p className="font-light">Real-time transaction monitoring</p>
-          </a>
-          <a href="/risk">
-            <p className="font-light">Customer risk assessment</p>
-          </a>
-          <a href="/sanctions">
-            <p className="font-light">Sanctions, PEP, AM screening</p>
-          </a>
-          <a href="/verification">
-            <p className="font-light">ID verification</p>
-          </a>
+      <div className="grid grid-cols-1 gap-10 sm:grid-cols-4 md:grid-cols-6 lg:gap-16">
+        <div className="hidden md:block">
+          <FlagrightMark />
         </div>
-        <div className="flex flex-col gap-3">
-          <h3 className="font-medium">Integrations</h3>
-          <a href="/blockchain">
-            <p className="font-light">Blockchain analytics</p>
-          </a>
-        </div>
-        <div className="flex flex-col gap-3">
-          <h3 className="font-medium">Advisory Services</h3>
-          <a href="/launchpad">
-            <p className="font-light">Launchpad</p>
-          </a>
+        <PlatformFooterMenu />
+        <div className="flex flex-col gap-8 ">
+          <IntegrationsFooterMenu />
+          <AdvisoryFooterMenu />
         </div>
 
-        <div className="flex flex-col gap-3">
-          <a href="/privacy">
-            <p className="font-medium">Privacy Policy</p>
-          </a>
-          <a href="/terms">
-            <p className="font-medium">Terms</p>
-          </a>
-          <a href="/jobs">
-            <p className="font-medium">Jobs</p>
-          </a>
-          <a href="/cookie">
-            <p className="font-medium">Cookie Policy</p>
-          </a>
-          <a href="/imprint">
-            <p className="font-medium">Imprint</p>
-          </a>
+        <GeneralFooterMenu />
+
+        <div className="hidden ml-40 md:block min-w-max">
+          <FollowPanel />
         </div>
       </div>
     </footer>
