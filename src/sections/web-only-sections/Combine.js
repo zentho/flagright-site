@@ -4,7 +4,7 @@ import BlueArrow from "../../media/svg/BlueArrow";
 
 export default function Combine() {
   return (
-    <section className="relative bg-[#F8FAFE] px-24 pt-20 pb-40 xl:pl-44 xl:pt-40 2xl:pl-60">
+    <section className="relative bg-[#F8FAFE] px-24 pt-20 pb-40 xl:pl-44 xl:pt-40 2xl:pl-60 2xl:pt-52">
       <div className="z-20">
         <h1 className="max-w-3xl mb-8 text-2xl font-semibold leading-tight">
           Combine screening with transaction monitoring, <br /> customer risk assessment & more.
