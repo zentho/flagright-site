@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./custom-slick-carousel.css";
+import Ball from "../../media/svg/Ball";
+import Bar from "../../media/svg/Bar";
 
 export default function Carousel() {
   var settings = {
@@ -11,6 +13,32 @@ export default function Carousel() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
+    appendDots: (dots) => {
+      console.log(dots);
+      return (
+        <ul>
+          {dots.map((dot) => {
+            return (
+              <button>
+                <div className="absolute bottom-0">
+                  {dot.props.className === "slick-active" ? (
+                    <div className="mr-6">
+                      <Bar />
+                    </div>
+                  ) : (
+                    <div className="ml-3">
+                      <Ball />
+                    </div>
+                  )}
+                </div>
+                <div>{dot}</div>
+              </button>
+            );
+          })}
+        </ul>
+      );
+    },
   };
   return (
     <div className="">

@@ -1,29 +1,12 @@
-button.slick-arrow {
-    display: none !important;
-}
 
-ul.slick-dots {
- margin-top: 2rem ;
-}
-  
-.slick-dots li {
-width: 1rem;
-
-}
 
 .slick-dots li:not(.slick-active) button:before {
-padding: 0;
-opacity: 0.8;
-width: 0.2rem;
-margin: 0;
-scale: 1.4;
+    content: "";
+    opacity: 1;
+    width: 1rem;
 }
 
 .slick-dots li.slick-active button:before {
-content: url("bar.svg") ;
-width: 2rem;
-margin-top: 0.05rem;
-margin-left: -0.75rem;
-opacity: 1;
-z-index: 20;
+    content: "";
+    width: 1rem;
 }
