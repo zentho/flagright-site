@@ -4,7 +4,7 @@ import Checkmark from "../media/svg/Checkmark";
 
 export default function Sanctions() {
   return (
-    <section className="pb-8 lg:bg-white bg-[#F8FAFE] pt-20 grid grid-cols-1 gap-20 lg:grid-cols-2 items-center sm:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12 xl:pl-44">
+    <section className="pb-8 lg:bg-white bg-[#F8FAFE] pt-20 grid grid-cols-1 gap-20 lg:grid-cols-2 items-center sm:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12 xl:pl-44 2xl:gap-0 2xl:pl-60">
       <div className="max-w-xl p-8 mx-auto lg:p-0">
         <h1 className="self-start mb-6 text-3xl font-semibold leading-tight lg:font-bold lg:text-2xl lg:mb-2">
           Sanctions, PEP and media checks on a centralized platform
@@ -36,7 +36,7 @@ export default function Sanctions() {
       </div>
 
       <img
-        className="max-w-sm mx-auto text-gray-800 sm:max-w-2xl lg:max-w-xl"
+        className="max-w-sm mx-auto text-gray-800 sm:max-w-2xl lg:max-w-xl 2xl:max-w-2xl"
         src={require("../media/capone.png")}
         alt="sanction showcase"
       />
