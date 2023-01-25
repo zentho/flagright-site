@@ -19,16 +19,16 @@ export default function Designed() {
             <SanctionCode />
           </div>
           <div className="flex justify-end py-4 bg-[#0a0925]">
-            <button className="px-4 py-2 mr-6 bg-[#1169f9] rounded text-lg">Send request</button>
+            <button className="px-4 py-2 mr-6 bg-[#1169f9] rounded font-light text-lg">Send request</button>
           </div>
         </div>
         <div className="flex flex-col col-span-2 gap-6">
           <div>
-            <h2 className="mb-2 text-3xl font-semibold leading-tight">
+            <h2 className="mb-2 text-3xl font-semibold leading-tight ">
               Designed for
               <span className="text-[#8B75F2]"> developers</span>
             </h2>
-            <p className="font-light leading-7 text-medium">
+            <p className="text-sm font-light leading-7 text-gray-300">
               Meet the industry's most robust REST API. Powerful, centralized system abstracted into a single,
               easy-to-use API. Integrate end-to-end within 4 days.
             </p>
