@@ -52,17 +52,17 @@ export default function What() {
           </div>
         </div>
       </div>
-      <div className="mb-16">
-        <Carousel />
-      </div>
-      <div>
-        <a
-          type="button"
-          href="/demo"
-          className="w-full py-3 text-xl font-light text-center bg-blue-600 rounded-md"
-        >
-          Request demo
-        </a>
+      <Carousel />
+      <div className="flex flex-col items-center">
+        <div>
+          <a
+            type="button"
+            href="/demo"
+            className="px-24 py-3 mt-16 text-xl font-light text-center bg-blue-600 rounded-md "
+          >
+            Request demo
+          </a>
+        </div>
       </div>
     </section>
   );

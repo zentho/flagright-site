@@ -40,7 +40,7 @@ export default function Carousel() {
   };
 
   return (
-    <div className="">
+    <div className="max-w-lg mx-auto ">
       <Slider {...settings}>
         <div className="flex flex-col p-12 bg-[#0E0C2C] rounded-xl  mb-3">
           <h3 className="mb-6 text-xl font-semibold text-gray-500">Average response time</h3>
