@@ -7,7 +7,7 @@ import Ball from "../../media/svg/Ball";
 import Bar from "../../media/svg/Bar";
 
 export default function Carousel() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -15,7 +15,7 @@ export default function Carousel() {
     slidesToScroll: 1,
     arrows: false,
     appendDots: (dots) => {
-      console.log(dots);
+      const dotIdIsActive = (id) => dots[id].props.className === "slick-active";
       return (
         <ul>
           {dots.map((dot) => {
@@ -23,11 +23,9 @@ export default function Carousel() {
               <button>
                 <div className="absolute bottom-0">
                   {dot.props.className === "slick-active" ? (
-                    <div className="mr-6">
-                      <Bar />
-                    </div>
+                    <Bar />
                   ) : (
-                    <div className="ml-3">
+                    <div className={`${dotIdIsActive(0) ? "ml-6" : dotIdIsActive(1) ? "ml-3" : "mr-6"}`}>
                       <Ball />
                     </div>
                   )}
@@ -40,6 +38,7 @@ export default function Carousel() {
       );
     },
   };
+
   return (
     <div className="">
       <Slider {...settings}>

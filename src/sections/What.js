@@ -52,7 +52,7 @@ export default function What() {
           </div>
         </div>
       </div>
-      <div className="mb-12">
+      <div className="mb-16">
         <Carousel />
       </div>
       <div>
