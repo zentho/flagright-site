@@ -3,7 +3,7 @@ import Protect from "./sections/Protect";
 import Reliable from "./sections/Reliable";
 import Sanctions from "./sections/Sanctions";
 import Streamline from "./sections/Streamline";
-import What from "./sections/What";
+import What from "./sections/mobile-only-sections/What";
 import Footer from "./sections/Footer";
 import Combine from "./sections/web-only-sections/Combine";
 import Designed from "./sections/web-only-sections/Designed";

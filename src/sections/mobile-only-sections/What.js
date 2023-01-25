@@ -1,9 +1,9 @@
 import React from "react";
-import Carousel from "../components/Carousel/Carousel";
-import Cloud from "../media/svg/Cloud";
-import Hand from "../media/svg/Hand";
-import Lightning from "../media/svg/Lightning";
-import Rocket from "../media/svg/Rocket";
+import Carousel from "../../components/Carousel/Carousel";
+import Cloud from "../../media/svg/Cloud";
+import Hand from "../../media/svg/Hand";
+import Lightning from "../../media/svg/Lightning";
+import Rocket from "../../media/svg/Rocket";
 
 export default function What() {
   return (
