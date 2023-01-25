@@ -1,6 +1,7 @@
 import React from "react";
 import Bank from "../media/svg/Bank";
 import Hammer from "../media/svg/Hammer";
+import Document from "../media/svg/Document";
 
 export default function Protect() {
   return (
@@ -25,7 +26,7 @@ export default function Protect() {
           </p>
         </div>
         <div>
-          <Hammer />
+          <Document />
           <h3 className="mt-5 mb-1 text-2xl font-medium">Adverse Media</h3>
           <p className="max-w-sm font-light leading-7 text-gray-300 text-medium">
             View negative mentions of business and consumer users in the news.

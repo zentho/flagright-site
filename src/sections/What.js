@@ -1,7 +1,5 @@
 import React from "react";
 import Carousel from "../components/Carousel/Carousel";
-import Ball from "../media/svg/Ball";
-import Bar from "../media/svg/Bar";
 import Cloud from "../media/svg/Cloud";
 import Hand from "../media/svg/Hand";
 import Lightning from "../media/svg/Lightning";
