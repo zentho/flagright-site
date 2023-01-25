@@ -24,7 +24,7 @@ export default function Sanctions() {
               Combine screening with transaction monitoring, customer risk assessment and more.
             </p>
           </div>
-          <a className="block mb-4 ml-8 text-lg font-semibold text-[#1169F9]" href="/more">
+          <a className="block ml-8 text-lg font-semibold text-[#1169F9]" href="/more">
             Learn more
             <BlueArrow />
           </a>
