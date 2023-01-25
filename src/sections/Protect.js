@@ -1,4 +1,5 @@
 import React from "react";
+import Bank from "../media/svg/Bank";
 import Hammer from "../media/svg/Hammer";
 
 export default function Protect() {
@@ -17,7 +18,7 @@ export default function Protect() {
           </p>
         </div>
         <div>
-          <Hammer />
+          <Bank />
           <h3 className="mt-5 mb-1 text-2xl font-medium">PEP</h3>
           <p className="max-w-sm font-light leading-7 text-gray-300 text-medium">
             Identify politically exposed parties and accurately assess your customers' risk exposure.
