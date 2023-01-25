@@ -36,7 +36,7 @@ export default function Sanctions() {
       </div>
 
       <img
-        className="max-w-sm mx-auto text-gray-800 sm:max-w-2xl lg:max-w-xl 2xl:max-w-2xl"
+        className="max-w-sm mx-auto text-gray-800 sm:max-w-2xl lg:max-w-xl 2xl:max-w-2xl 2xl:mx-0 2xl:mr-40"
         src={require("../media/capone.png")}
         alt="sanction showcase"
       />
