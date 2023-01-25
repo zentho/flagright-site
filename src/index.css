@@ -10,6 +10,8 @@ body {
   color: #1A1935;
 }
 
+
+/* styling to create custom purple scrollbar in Designed section */
 #sanction-code::-webkit-scrollbar {
   width: 28px;
 }

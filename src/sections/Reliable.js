@@ -3,8 +3,10 @@ import React from "react";
 export default function Reliable() {
   return (
     <section className="p-8 pt-20 pb-24 sm:text-center md:flex md:flex-col md:items-center">
-      <h2 className="mb-4 text-3xl font-semibold leading-tight">Reliable, global data sources</h2>
-      <p className="max-w-2xl mb-8 leading-7 md:mb-12">
+      <h2 className="mb-2 text-2xl font-semibold leading-tight lg:font-bold">
+        Reliable, global data sources
+      </h2>
+      <p className="max-w-2xl mb-8 text-sm leading-7 md:mb-12">
         We support and frequently update our data sources from global lists including OFAC, HM Treasury, UN,
         and EU to deliver you relevant and up-to-date information.
       </p>

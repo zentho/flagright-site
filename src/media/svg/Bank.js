@@ -2,7 +2,7 @@ import React from "react";
 
 function Bank() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" fill="none" viewBox="0 0 46 46">
+    <svg xmlns="http://www.w3.org/2000/svg" width="42" height="46" fill="none" viewBox="0 0 46 46">
       <path fill="#8B75F2" d="M0.92 46H5.687V91.08H0.92z" transform="rotate(-90 .92 46)"></path>
       <path fill="#8B75F2" d="M5.06 22.642H9.66V38.849000000000004H5.06z"></path>
       <path fill="#8B75F2" d="M16.56 23.119H21.159999999999997V38.85H16.56z"></path>

@@ -29,14 +29,14 @@ export default function Sanctions() {
             <BlueArrow />
           </a>
         </div>
-        <p className="hidden text-sm leading-5 text-gray-800 lg:block">
+        <p className="hidden text-sm leading-6 text-gray-800 lg:block">
           Bring all your data on a no-code, powerful platform to maximize <br className="hidden xl:inline" />{" "}
           the efficacy of AML compliance operations.
         </p>
       </div>
 
       <img
-        className="max-w-sm mx-auto sm:max-w-2xl lg:max-w-xl"
+        className="max-w-sm mx-auto text-gray-800 sm:max-w-2xl lg:max-w-xl"
         src={require("../media/capone.png")}
         alt="sanction showcase"
       />
