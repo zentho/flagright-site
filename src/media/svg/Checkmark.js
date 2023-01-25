@@ -4,8 +4,8 @@ function Checkmark() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
+      width="18"
+      height="26"
       fill="none"
       version="1.1"
       viewBox="0 0 20 20"

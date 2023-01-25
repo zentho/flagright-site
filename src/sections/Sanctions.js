@@ -11,9 +11,9 @@ export default function Sanctions() {
           <span className="md:hidden"> for all AML compliance needs </span>
         </h1>
         <div className="flex flex-col max-w-sm gap-6 lg:hidden">
-          <div className="flex items-start gap-3 ">
+          <div className="flex items-start gap-3">
             <Checkmark />
-            <p className="leading-7 text-gray-800 ">
+            <p className="leading-7 text-gray-800 align-top">
               Bring all your data on a no-code, powerful platform to maximize the efficacy of AML compliance
               operations.
             </p>
