@@ -14,14 +14,14 @@ export default function Footer() {
         <FollowPanel />
       </div>
 
-      <div className="grid grid-cols-1 gap-10 lg:justify-items-center sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-7 lg:gap-12">
+      <div className="grid grid-cols-1 gap-10 lg:justify-items-center sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-8 lg:gap-0">
         <div className="hidden md:block">
           <FlagrightMark />
         </div>
-        <div className="lg:col-span-2 ">
+        <div className=" lg:col-span-2">
           <PlatformFooterMenu />
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 ">
           <IntegrationsFooterMenu />
           <AdvisoryFooterMenu />
         </div>
@@ -29,7 +29,7 @@ export default function Footer() {
           <GeneralFooterMenu />
         </div>
 
-        <div className="hidden lg:justify-self-end md:block">
+        <div className="hidden lg:justify-self-center md:block lg:col-span-2">
           <FollowPanel />
         </div>
       </div>
