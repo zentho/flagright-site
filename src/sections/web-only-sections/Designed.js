@@ -4,9 +4,9 @@ import PurpleArrow from "../../media/svg/PurpleArrow";
 
 export default function Designed() {
   return (
-    <section className="py-28 px-24 bg-[#1A1935] text-white">
+    <section className="py-28 px-24 bg-[#1A1935] text-white xl:px-44">
       <div className="grid items-center grid-cols-5 gap-16">
-        <div className="col-span-3 overflow-hidden bg-[#0a0925] rounded-lg">
+        <div className="col-span-3 overflow-hidden bg-[#0a0925] rounded-lg max-w-3xl">
           <div className="bg-[#2f2755] text-center py-2">
             <h3>Sanction checks</h3>
           </div>

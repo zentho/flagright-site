@@ -4,11 +4,11 @@ import Checkmark from "../media/svg/Checkmark";
 
 export default function Sanctions() {
   return (
-    <section className="pb-8 lg:bg-white bg-[#F8FAFE] pt-20  grid grid-cols-1 lg:grid-cols-2 items-center md:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12">
+    <section className="pb-8 lg:bg-white bg-[#F8FAFE] pt-20 grid grid-cols-1 lg:grid-cols-2 items-center sm:pl-12 lg:pt-6 lg:pl-24 lg:pr-44 lg:pb-12 xl:pl-44">
       <div className="max-w-xl p-8 mx-auto lg:p-0">
-        <h1 className="mb-6 text-3xl font-semibold leading-tight lg:font-bold lg:text-2xl lg:mb-2">
-          Sanctions, PEP and media checks <br className="hidden xl:inline" /> on a centralized platform
-          <span className="md:hidden"> for all AML compliance needs </span>
+        <h1 className="self-start mb-6 text-3xl font-semibold leading-tight lg:font-bold lg:text-2xl lg:mb-2">
+          Sanctions, PEP and media checks on a centralized platform
+          <span className="lg:hidden"> for all AML compliance needs </span>
         </h1>
         <div className="flex flex-col max-w-sm gap-6 lg:hidden">
           <div className="flex items-start gap-3">
@@ -29,9 +29,9 @@ export default function Sanctions() {
             <BlueArrow />
           </a>
         </div>
-        <p className="hidden text-xs leading-5 text-gray-800 lg:block">
-          Bring all your data on a no-code, powerful platform to maximize <br /> the efficacy of AML
-          compliance operations.
+        <p className="hidden text-sm leading-5 text-gray-800 lg:block">
+          Bring all your data on a no-code, powerful platform to maximize <br className="hidden xl:inline" />{" "}
+          the efficacy of AML compliance operations.
         </p>
       </div>
 

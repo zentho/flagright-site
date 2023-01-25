@@ -4,7 +4,7 @@ import BlueArrow from "../../media/svg/BlueArrow";
 
 export default function Combine() {
   return (
-    <section className="relative flex bg-[#F8FAFE] px-24 pt-20 pb-40">
+    <section className="relative flex bg-[#F8FAFE] px-24 pt-20 pb-40 xl:pl-44 xl:pt-40">
       <div className="z-20">
         <h1 className="max-w-3xl mb-8 text-2xl font-semibold leading-tight">
           Combine screening with transaction monitoring, <br /> customer risk assessment & more.
@@ -37,7 +37,7 @@ export default function Combine() {
         </div>
       </div>
       <img
-        className="absolute bottom-0 right-0 w-[54vw] max-w-2xl"
+        className="absolute bottom-0 right-0 w-[54vw] max-w-2xl lg:max-w-3xl xl:max-w-4xl"
         src={require("../../media/screening-diagram.png")}
         alt="screening diagram"
       />

@@ -8,7 +8,7 @@ import PlatformFooterMenu from "../components/PlatformFooterMenu";
 
 export default function Footer() {
   return (
-    <footer className="pt-20 pb-20 px-8 bg-[#EBF2FF] lg:px-24 text-gray-700">
+    <footer className="pt-20 pb-20 px-8 bg-[#EBF2FF] lg:px-24 xl:px-44 text-gray-700">
       <div className="flex justify-between mb-10 sm:justify-start sm:gap-8 md:hidden">
         <FlagrightMark />
         <FollowPanel />
